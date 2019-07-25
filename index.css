@@ -1,0 +1,117 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8em;
+  font-size: 1.1em;
+  color: #333;
+}
+
+a {
+  color: #fb3b49;
+}
+
+a:hover {
+  color: #ed2d39;
+  text-decoration: none;
+}
+
+.box {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.box.grey {
+  background-color: #f4f5f7;
+}
+
+.box p {
+  margin: 0;
+}
+
+.box strong {
+  color: #fb3b49;
+  font-weight: 700;
+}
+
+.box h4 {
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 576px) {
+  .box h4 {
+    font-size: 1.1em;
+  }
+}
+
+#logo {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#logo h1 {
+  font-size: 3.5em;
+  color: #fb3b49;
+  text-shadow: 4px 4px 0 rgba(251, 59, 73, 0.2);
+  padding: 0;
+  margin: 0;
+  font-weight: 800;
+}
+
+@media (max-width: 576px) {
+  #logo h1 {
+    font-size: 1.5em;
+  }
+}
+
+#logo h3 {
+  font-size: 1.3em;
+  color: #888;
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+#logo h3 span {
+  padding: 0 10px;
+}
+
+#about-me .me-logo {
+  position: relative;
+  margin-top: -140px;
+}
+
+#about-me h4 {
+  margin-top: 25px;
+}
+
+#about-me .social {
+  font-size: 2em;
+  margin-top: 25px;
+}
+
+#about-me .social a {
+  margin: 0 5px;
+}
+
+#about-me .social .fa-twitter {
+  color: #1ea0f1;
+}
+
+#about-me .social .fa-xing {
+  color: #006466;
+}
+
+#about-me .social .fa-github {
+  color: #000;
+}
+
+#footer {
+  font-size: 0.7em;
+}
